@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary: #000;
+    --background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: var(--primary);
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mole {
+	background-image: url("./img/groot.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+button {
+    margin-top: 1rem;
+    color: beige;
+    background-color: black;
+    padding: 1rem 3rem;
+}
+
+#timer { 
+    display: block;
+    text-align: center;
+}
